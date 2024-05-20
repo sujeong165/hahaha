@@ -9,27 +9,34 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #ffcd44; /* 브라운 컬러 */
+    background-color: #8B4513; /* 브라운 컬러 */
     color: #fff;
-    font-family: 'Do Hyeon', Arial, sans-serif;
+    font-family: 'Noto Sans', Arial, sans-serif; /* 폰트 설정 */
     text-align: center;
 }
 
 .container {
     text-align: center;
+    max-width: 600px;
 }
 
-h1 {
+p {
     margin-bottom: 20px;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
+    font-weight: bold; /* 폰트 굵기 설정 */
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 button {
     padding: 10px 20px;
-    font-weight: bold;
     font-size: 1rem;
+    font-weight: bold; /* 폰트 굵기 설정 */
     color: #8B4513;
-    font-family: 'Do Hyeon', Arial, sans-serif;
     background-color: #fff;
     border: none;
     border-radius: 5px;
