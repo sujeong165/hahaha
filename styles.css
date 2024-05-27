@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #ffcd44;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,17 +21,17 @@ h1 {
 }
 
 button {
-    background-color: #007bff;
+    background-color: #ff9100;
     color: white;
     padding: 0.75rem 1.5rem;
     border: none;
-    border-radius: 5px;
+    border-radius: 20px;
     cursor: pointer;
     margin: 0.5rem;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #ff9100;
 }
 
 #result {
