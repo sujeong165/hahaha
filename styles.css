@@ -1,41 +1,41 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #ffcd44; /* 브라운 컬러 */
-    color: #fff;
-    font-family: 'Do Hyeon', Arial, sans-serif;
-    text-align: center;
+    margin: 0;
 }
 
 .container {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
 h1 {
-    margin-bottom: 20px;
-    font-size: 2.5rem;
+    margin-bottom: 1rem;
 }
 
 button {
-    padding: 10px 20px;
-    font-weight: bold;
-    font-size: 1rem;
-    color: #8B4513;
-    font-family: 'Do Hyeon', Arial, sans-serif;
-    background-color: #fff;
+    background-color: #007bff;
+    color: white;
+    padding: 0.75rem 1.5rem;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin: 0.5rem;
 }
 
 button:hover {
-    background-color: #f0e68c;
+    background-color: #0056b3;
+}
+
+#result {
+    margin-top: 1rem;
+    font-size: 1.25rem;
+    font-weight: bold;
 }
