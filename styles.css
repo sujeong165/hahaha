@@ -1,11 +1,12 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffcd44;
+    background-color: #fff2ce;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
+    
 }
 
 .container {
@@ -28,6 +29,7 @@ button {
     border-radius: 20px;
     cursor: pointer;
     margin: 0.5rem;
+    font-size: 18px;
 }
 
 button:hover {
