@@ -31,7 +31,7 @@ function selectAnswer(answer, nextPage) {
     } else if (currentQuestion.endsWith('question11.html')) {
         localStorage.setItem('q11', answer);
     } else if (currentQuestion.endsWith('question12.html')) {
-        localStorage.setItem('q12', answer);  // 수정된 부분
+        localStorage.setItem('q12', answer); 
     }
     window.location.href = nextPage;
 }
